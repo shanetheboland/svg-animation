@@ -42,3 +42,11 @@ svg {
     stroke: #ecf0f1;
     stroke-width: 1;
 }
+
+.refresh-link {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 5;
+}

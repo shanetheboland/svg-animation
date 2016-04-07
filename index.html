@@ -8,17 +8,20 @@
     <meta name="description" content="SVG animation Geek Zone" />
     <meta name="keywords" content="shane boland, portfolio, svg, animation, geek zone, blog, @shanetheboland" />
     <meta name="author" content="Shane Boland" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
     <title>Geek Zone SVG Animation</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/geek-svg.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
+    <a href="javascript:void(0);" id="js-refresh-link" class="refresh-link">Do It Again</a>
     <div id="container" class="container">
         <div id="main" class="main">
-            <img class="illustration" src="img/illustration.png" alt="Geek Zone Illustration" width="600px" height="600px" />
-            <svg class="line-drawing" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+            <img class="illustration" id="js-illustration" src="img/illustration.svg" alt="Geek Zone Illustration" width="600px" height="600px" />
+            <svg class="line-drawing" id="js-line-drawing" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
                 <g id="i2">
                     <path fill="none" stroke="#231F20" stroke-width="1.091" stroke-miterlimit="10" d="M495.658,218.907c-4.635,0-9.27,0-13.902,0
     c-11.353,0-22.705,0-34.06,0c-14.249,0-28.495,0-42.744,0c-13.322,0-26.645,0-39.967,0c-8.57,0-17.143,0-25.716,0
@@ -207,8 +210,7 @@
         </div>
     </div>
 
-    <script src="js/classie.js"></script>
-    <script src="js/svganimations.js"></script>
+    <script src="js/script.min.js"></script>
 </body>
 
 </html>
